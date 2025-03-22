@@ -5,7 +5,7 @@
 $userInput = isset($_GET['input']) ? $_GET['input'] : '';
 
 // Display the user input without sanitization (VULNERABLE!)
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,3 +24,4 @@ $userInput = isset($_GET['input']) ? $_GET['input'] : '';
     </div>
 </body>
 </html>
+?>
